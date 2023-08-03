@@ -1,0 +1,33 @@
+*{
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(80deg, blue, purple, white);
+}
+
+.content-general{
+    margin: 16px;
+    border-radius: 2in;
+}
+
+.content-general-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-general-principal-logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-general-principal-logo img{
+    width: 200px;
+    height: 200px;
+}
+
